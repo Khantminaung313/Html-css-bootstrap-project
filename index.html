@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skate Blog</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/d6e8f8effe.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Skater</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto me-5">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#about"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  About
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#team">Team</a></li>
+                  <li><a class="dropdown-item" href="#pricing">Pricing</a></li>
+                  <li><a class="dropdown-item" href="#faq">FAQ</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonials">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <hero-section class="home" id="home">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item carousel-img bg-img-1 active">
+              <div class="carousel-caption">
+                <h1>New Generation Of Skating</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad,
+                  adipisci.
+                </p>
+                <button class="btn">Get in touch</button>
+              </div>
+            </div>
+            <div class="carousel-item carousel-img bg-img-2">
+              <div class="carousel-caption">
+                <h1>New Generation Of Skating</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad,
+                  adipisci.
+                </p>
+                <button class="btn">Get in touch</button>
+              </div>
+            </div>
+            <div class="carousel-item carousel-img bg-img-3">
+              <div class="carousel-caption">
+                <h1>New Generation Of Skating</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad,
+                  adipisci.
+                </p>
+                <button class="btn">Get in touch</button>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </hero-section>
+    </header>
+    <main>
+      <!-- services section starts -->
+      <section class="services container" id="services">
+        <div class="heading">
+          <h2 class="title">Services</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat reiciendis hic, illum id architecto eligendi eius ab quibusdam magni praesentium.</p>
+        </div>
+
+        <div class="container services-cards">
+          <div class="box">
+            <i class="fa fa-flash" aria-hidden="true"></i>
+            <h4>Skate For Beginner</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium fuga perspiciatis consequatur, quos doloribus nisi sunt commodi modi illum expedita.</p>
+          </div>
+          <div class="box">
+            <i class="fa fa-flash" aria-hidden="true"></i>
+            <h4>Personal Training</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium fuga perspiciatis consequatur, quos doloribus nisi sunt commodi modi illum expedita.</p>
+          </div>
+          <div class="box">
+            <i class="fa fa-flash" aria-hidden="true"></i>
+            <h4>Best skater</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium fuga perspiciatis consequatur, quos doloribus nisi sunt commodi modi illum expedita.</p>
+          </div>
+          <div class="box">
+            <i class="fa fa-flash" aria-hidden="true"></i>
+            <h4>Skate For Beginner</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium fuga perspiciatis consequatur, quos doloribus nisi sunt commodi modi illum expedita.</p>
+          </div>
+          <div class="box">
+            <i class="fa fa-flash" aria-hidden="true"></i>
+            <h4>Personal Training</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium fuga perspiciatis consequatur, quos doloribus nisi sunt commodi modi illum expedita.</p>
+          </div>
+          <div class="box">
+            <i class="fa fa-flash" aria-hidden="true"></i>
+            <h4>Best skater</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium fuga perspiciatis consequatur, quos doloribus nisi sunt commodi modi illum expedita.</p>
+          </div>
+        </div>
+
+        <div class="container performance">
+          <div class="performance-box" >
+            <img src="./imges/levi-frey-S7exGu19HJs-unsplash.jpg" alt="performance-image">
+          </div>
+          <div class="performance-box" >
+            <div class="row">
+              <div class="col-12 col-md-8 m-auto">
+                <h3 class="performance-title">My Best Performance</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dolorem quidem ullam quibusdam tenetur, voluptatum magnam voluptas numquam magni tempore.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque quia, eveniet tenetur laborum libero perspiciatis!</p>
+                <ul>
+                  <li><i class="fa fa-check me-3" aria-hidden="true"></i> Lorem, ipsum dolor.</li>
+                  <li><i class="fa fa-check me-3" aria-hidden="true"></i>  sit  Accusantium, deserunt?</li>
+                  <li><i class="fa fa-check me-3" aria-hidden="true"></i> amet consectetur adipisicing elit.</li>
+                  <li><i class="fa fa-check me-3" aria-hidden="true"></i> Lorem, ipsum dolor.</li>
+                  
+                </ul>
+              </div>
+              </div>
+          </div>
+        </div>
+        <div class="container performance row-2">
+          <div class="performance-box">
+            <div class="row">
+              <div class="col-12 col-md-8 m-auto">
+                <h3 class="performance-title">My Best Performance</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dolorem quidem ullam quibusdam tenetur, voluptatum magnam voluptas numquam magni tempore.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque quia, eveniet tenetur laborum libero perspiciatis!</p>
+                <ul>
+                  <li><i class="fa fa-check me-3" aria-hidden="true"></i> Lorem, ipsum dolor.</li>
+                  <li><i class="fa fa-check me-3" aria-hidden="true"></i>  sit  Accusantium, deserunt?</li>
+                  <li><i class="fa fa-check me-3" aria-hidden="true"></i> amet consectetur adipisicing elit.</li>
+                  <li><i class="fa fa-check me-3" aria-hidden="true"></i> Lorem, ipsum dolor.</li>
+                  
+                </ul>
+              </div>
+              </div>
+          </div>
+          <div class="performance-box">
+            <img src="./imges/kelli-mcclintock-8bH7yjcaFD4-unsplash.jpg" alt="performance-image">
+          </div>
+        </div>
+        <div class="container performance-video">
+          <video controls>
+            <source src="./imges/production ID_4935665.mp4" type="video/mp4">
+          </video>
+        </div>
+
+        <div class="container count-number">
+          <div class="number-box">
+            <p>30+</p>
+            <small>Year of Experience</small>
+          </div>
+          <div class="number-box" >
+            <p> 4+ </p>
+            <small>Expert Trainner</small>
+          </div>
+          <div class="number-box">
+            <p>4+</p>
+            <small>Number Of Trainner</small>
+          </div>
+          <div class="number-box">
+            <p>1,500+</p>
+            <small>Number Of Member</small>
+          </div>
+        </div>
+      </section>
+      <!-- services section ends -->
+
+
+      <!-- about section starts -->
+
+      <section class="about team container" id="team">
+        <div class="container heading">
+          <h2 class="title">Our Team</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolorum at similique, sit iusto nesciunt doloremque ipsa totam consequuntur? Saepe, dolores architecto.</p>
+        </div>
+
+        <div class="container about-cards">
+          <div class="box">
+            <img src="./imges/alexander-hipp-iEEBWgY_6lA-unsplash.jpg" alt="trainer-photo">
+            <h5>Jean Smith</h5>
+            <p>Skateboard Trainer</p>
+            <div class="icon-box">
+              <a href="#">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="#">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="#">
+                <i class="fa fa-instagram" aria-hidden="true"></i>  
+              </a>
+            </div>
+          </div>
+          <div class="box">
+            <img src="./imges/linkedin-sales-solutions-pAtA8xe_iVM-unsplash.jpg" alt="trainer-photo">
+            <h5>Bob carry</h5>
+            <p>Skateboard Trainer</p>
+            <div class="icon-box">
+              <a href="#">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="#">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="#">
+                <i class="fa fa-instagram" aria-hidden="true"></i>  
+              </a>
+            </div>
+          </div>
+          <div class="box">
+            <img src="./imges/ali-morshedlou-WMD64tMfc4k-unsplash.jpg" alt="trainer-photo">
+            <h5>Ricky Fisher</h5>
+            <p>Skateboard Trainer</p>
+            <div class="icon-box">
+              <a href="#">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="#">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="#">
+                <i class="fa fa-instagram" aria-hidden="true"></i>  
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pricing Section starts -->
+      <section class="pricing container" id="pricing">
+        <div class="container heading">
+          <h2 class="title">Session pricing</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam quibusdam ea iste dicta! Consequatur, amet fuga quibusdam dolorem sed quae!</p>
+        </div>
+
+        <div class="container pricing-cards">
+          <div class="price-box">
+            <h4>basic</h4>
+            <small class="price"><span>$47</span>/year</small>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>adipisicing elit. Ipsum, necessitatibus!</p>
+            <p>amet consectetur adipisicing.</p>
+            <p>amet consectetur adipisicing.</p>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <button class="price-btn">Buy Now</button>
+          </div>
+          <div class="price-box">
+            <h4>Premium</h4>
+            <small class="price"><span>$200</span>/year</small>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>adipisicing elit. Ipsum, necessitatibus!</p>
+            <p>amet consectetur adipisicing.</p>
+            <p>amet consectetur adipisicing.</p>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <button class="price-btn active">Buy Now</button>
+          </div>
+          <div class="price-box">
+            <h4>Professional</h4>
+            <small class="price"><span>$750</span>/year</small>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>adipisicing elit. Ipsum, necessitatibus!</p>
+            <p>amet consectetur adipisicing.</p>
+            <p>amet consectetur adipisicing.</p>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <button class="price-btn">Buy Now</button>
+          </div>
+        </div>
+      </section>
+      <!-- Pricing Section ends -->
+
+      <!-- FAQ section starts -->
+
+      <section id="faq" class="faq container">
+        <div class="heading">
+          <h2 class="title">Frequently ask questions</h2>
+        </div>
+
+        <div class="faq-cards">
+          <div class="box">
+            <h4>can i accept both paypal and stripe?</h4>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi culpa cumque cupiditate consequuntur suscipit optio omnis similique totam neque ipsam?
+          </div>
+          <div class="box">
+            <h4>Where are you from?</h4>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi culpa cumque cupiditate consequuntur suscipit optio omnis similique totam neque ipsam?
+          </div>
+          <div class="box">
+            <h4>what abailable is refund period?</h4>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi culpa cumque cupiditate consequuntur suscipit optio omnis similique totam neque ipsam?
+          </div>
+          <div class="box">
+            <h4>what is your opening time?</h4>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi culpa cumque cupiditate consequuntur suscipit optio omnis similique totam neque ipsam?
+          </div>
+        </div>
+      </section>
+      <!-- FAQ section ends -->
+
+      <!-- about section ends -->
+
+      <!-- testimonials section starts -->
+      <section class="testimonials container" id="testimonials">
+        <div class="heading">
+          <h2 class="title">testimonials</h2>
+        </div>
+        <div class="testimonials-cards">
+          <div class="box">
+            <img src="./imges/alex-suprun-ZHvM3XIOHoE-unsplash.jpg" alt="user-photo">
+            <h5>Robert steward</h5>
+            <div class="text-box">
+              <blockquote>
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error asperiores accusamus excepturi dolor! Recusandae minus error nam aspernatur ipsam consequatur eum impedit aliquid beatae voluptate."
+              </blockquote>
+            </div>
+          </div>
+          <div class="box box-2">
+            <img src="./imges/michael-dam-mEZ3PoFGs_k-unsplash.jpg" alt="user-photo">
+            <h5>Robert steward</h5>
+            <div class="text-box">
+              <blockquote>
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error asperiores accusamus excepturi dolor! Recusandae minus error nam aspernatur ipsam consequatur eum impedit aliquid beatae voluptate."
+              </blockquote>
+            </div>
+          </div>
+          <div class="box">
+            <img src="./imges/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg" alt="user-photo">
+            <h5>Robert steward</h5>
+            <div class="text-box">
+              <blockquote>
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error asperiores accusamus excepturi dolor! Recusandae minus error nam aspernatur ipsam consequatur eum impedit aliquid beatae voluptate."
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- testimonials section ends -->
+
+      <!-- blog section starts -->
+
+      <section class="blog container" id="blog">
+        <div class="heading">
+          <h5>latest blog posts</h5>
+          <h2>our blog</h2>
+        </div>
+
+        <div class="blog-cards">
+          <div class="box" >
+            <img src="./imges/andhika-soreng-3oljXvtTJtM-unsplash.jpg" alt="blog-photo">
+            <h3>how to find gold in mining</h3>
+            <small>January 18,2019 by <a href="#">james cooper</a></small>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam magnam laboriosam nesciunt eligendi amet praesentium facere, natus deleniti dolores repellat?</p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+          <div class="box" >
+            <img src="./imges/drew-hays-8SgpKk65oVE-unsplash.jpg" alt="blog-photo">
+            <h3>how to find gold in mining</h3>
+            <small>January 18,2019 by <a href="#">james cooper</a></small>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam magnam laboriosam nesciunt eligendi amet praesentium facere, natus deleniti dolores repellat?</p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- blog section ends -->
+
+      <!-- contact section starts -->
+      <section class="contact container" id="contact">
+        <div class="heading">
+          <h5>get in touch</h5>
+          <h2>contact me</h2>
+        </div>
+
+        <div class="container contact-cards">
+            <div class="box" >
+              <div class="name">
+                <input class="f-name" type="text" placeholder="First name">
+                <input class="l-name" type="text" placeholder="Last name"><br>
+              </div>
+              <input type="email" placeholder="Email address"><br>
+              <textarea name="message"rows="5" placeholder="White your message"></textarea><br>
+              <button>Send Message</button>
+            </div>
+            <div class="box text-box" >
+              <div class="col-12 col-md-8 ms-md-auto">
+                <h4>need to know more on details. get in touch</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum officia enim tenetur explicabo illo minima iste qui earum animi amet.</p>
+                <button>get started</button>
+              </div>
+            </div>
+        </div>
+      </section>
+      <!-- contact section ends -->
+    </main>
+    <footer>
+      <div class="footer-section container">
+        <div class="footer-cards">
+          <div class="box about-us">
+            <h6>about us</h6>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio quibusdam ducimus autem minus nulla, architecto eos nostrum quo molestiae. Doloribus.</p>
+          </div>
+          <div class="box features">
+            <h6>features</h6>
+            <p><a href="#">About Us</a></p>
+            <p><a href="#">Press Release</a></p>
+            <p><a href="#">Testimonials</a></p>
+            <p><a href="#">Terms of Services</a></p>
+            <p><a href="#">Privacy</a></p>
+            <p><a href="#">Contact Us</a></p>
+          </div>
+          <div class="box subscribe">
+            <h6>subscribe to newsletter</h6>
+            <div class="input-group">
+              <input class="form-control" type="text" placeholder="Enter Email">
+              <button class="btn subscribe-btn">Subscribe</button>
+            </div>
+            
+            <h6>follow us</h6>
+            <div class="external-links">
+              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="copyright">
+          <p>Copyright &copy;2023 All right reserved | This template is made by <span> KhantMinAung </span></p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
